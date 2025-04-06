@@ -1,14 +1,9 @@
 package com.reservaUsuario.usuarioService.model;
 
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.EqualsAndHashCode;
-import lombok.NoArgsConstructor;
+import lombok.*;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
-
-import javax.swing.*;
 
 @Table(name="Usuario")
 @Entity(name = "Usuario")
