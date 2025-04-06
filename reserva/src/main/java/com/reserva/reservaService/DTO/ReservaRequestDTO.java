@@ -1,4 +1,9 @@
 package com.reserva.reservaService.DTO;
 
-public class ReservaRequestDTO {
-}
+import java.time.LocalDateTime;
+
+public record ReservaRequestDTO(
+    LocalDateTime dataHora,
+    Long salaId,
+    Long usuarioId
+){}
