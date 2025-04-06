@@ -1,6 +1,7 @@
 package com.sala.salas.DTO;
 
-public record SalaDTO (
+public record SalaRequestDTO(
         String nome,
-        int capacidade
+        String localizacao,
+        Integer capacidade
 ){}

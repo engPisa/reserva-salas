@@ -1,4 +1,8 @@
 package com.sala.salas.DTO;
 
-public class SalaResponseDTO {
-}
+public record SalaResponseDTO (
+        Long id,
+        String nome,
+        String localizacao,
+        Integer capacidade
+){}
