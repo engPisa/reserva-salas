@@ -3,7 +3,6 @@ package com.sala.salas.controller;
 import com.sala.salas.DTO.SalaRequestDTO;
 import com.sala.salas.DTO.SalaResponseDTO;
 import com.sala.salas.services.SalaService;
-import lombok.Getter;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
