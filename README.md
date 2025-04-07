@@ -20,16 +20,16 @@
 
 ```bash
 /projeto/ 
-          ├── docker-compose.yml 
-          ├── reserva-usuario/  
-            ├── Dockerfile  
-            └── src/... 
-            ├── reserva-sala/  
-              ├── Dockerfile 
-              └── src/... 
-            ├── reserva-service/  
-              ├── Dockerfile  
-              └── src/...
+    ├── docker-compose.yml 
+    ├── reserva-usuario/  
+      ├── Dockerfile  
+      └── src/... 
+    ├── reserva-sala/  
+      ├── Dockerfile 
+      └── src/... 
+    ├── reserva-service/  
+      ├── Dockerfile  
+      └── src/...
 ```
 
 ---
