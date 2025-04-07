@@ -24,5 +24,4 @@ public class ReservaController {
         ReservaResponseDTO responseDTO = reservaService.cadastrarReserva(dto);
         return ResponseEntity.ok(responseDTO);
     }
-
 }
