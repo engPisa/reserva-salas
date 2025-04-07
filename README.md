@@ -1,6 +1,6 @@
 # Sistema de Reserva de Salas 🏢🗓️
 
-Este projeto é uma aplicação distribuída composta por três microsserviços: **Usuário**, **Sala** e **Reserva**. Cada serviço possui sua responsabilidade isolada e se comunicam entre si através de REST APIs.
+> Este projeto é uma aplicação distribuída composta por três microsserviços: **Usuário**, **Sala** e **Reserva**. Cada serviço possui sua responsabilidade isolada e se comunicam entre si através de REST APIs.
 
 ## 🔧 Tecnologias Utilizadas
 
@@ -21,14 +21,14 @@ Este projeto é uma aplicação distribuída composta por três microsserviços:
 ```bash
 /projeto/ 
           ├── docker-compose.yml 
-          ├── reserva-usuario/ │ 
-            ├── Dockerfile │ 
+          ├── reserva-usuario/  
+            ├── Dockerfile  
             └── src/... 
-            ├── reserva-sala/ │ 
-              ├── Dockerfile │ 
+            ├── reserva-sala/  
+              ├── Dockerfile 
               └── src/... 
-            ├── reserva-service/ │ 
-              ├── Dockerfile │ 
+            ├── reserva-service/  
+              ├── Dockerfile  
               └── src/...
 ```
 
@@ -84,5 +84,5 @@ docker-compose up --build
  - Criar testes automatizados
  - Documentar com Swagger e revisar
 
- 🧑‍💻 Autor
+### 🧑‍💻 Autor
 Cesar Pisa - Desenvolvedor backend em evolução 🚀
