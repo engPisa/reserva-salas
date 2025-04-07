@@ -1,7 +1,6 @@
 package com.reservaUsuario.usuarioService.model;
 
 import jakarta.persistence.Embeddable;
-import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
