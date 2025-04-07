@@ -28,8 +28,8 @@
     │  ├── Dockerfile 
     │  └── src/... 
     └── reserva-service/  
-      ├── Dockerfile  
-      └── src/...
+       ├── Dockerfile  
+       └── src/...
 ```
 
 ---
