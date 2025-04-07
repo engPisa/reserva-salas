@@ -43,7 +43,7 @@ public class ReservaService {
             throw new NotFoundException("Sala com ID" + dto.salaId() + "não encontrada");
         }
 
-        if (reservaRepository.salaOcupada(dto.salaId(), dto.dataHora())){
+        if (reservaRepository.existsBySalaIdAndDataInicio(dto.salaId(), dto.dataHora())){
             throw new SalaOcupadaException("Ja existe uma reserva nesse horario.");
         }
 

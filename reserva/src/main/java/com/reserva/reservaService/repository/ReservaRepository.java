@@ -8,5 +8,5 @@ import java.time.LocalDateTime;
 
 @Repository
 public interface ReservaRepository extends JpaRepository<ReservaModel, Long> {
-    boolean salaOcupada(Long salaId, LocalDateTime dataHora);
+    boolean existsBySalaIdAndDataInicio(Long salaId, LocalDateTime dataHora);
 }
