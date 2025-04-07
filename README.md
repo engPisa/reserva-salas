@@ -22,12 +22,12 @@
 /projeto/ 
     ├── docker-compose.yml 
     ├── reserva-usuario/  
-      ├── Dockerfile  
-      └── src/... 
+    │  ├── Dockerfile  
+    │  └── src/... 
     ├── reserva-sala/  
-      ├── Dockerfile 
-      └── src/... 
-    ├── reserva-service/  
+    │  ├── Dockerfile 
+    │  └── src/... 
+    └── reserva-service/  
       ├── Dockerfile  
       └── src/...
 ```
